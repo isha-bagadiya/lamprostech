@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap');
+
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-family: 'Maven Pro', sans-serif; 
+    z-index: 100;
+}
+
+.navlinks li {
+    position: relative;
+    font-size: 25px;
+  }  
+
+.navlinks a {
+    text-decoration: none;
+    color: #7DDEDA;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.down-arrow{
+    padding: 3px 0px 0px 3px;
+}
+
+.dropdown {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    list-style: none;
+}
+  
+.dropdown li {
+    width: 150px;
+}
+  
+.dropdown li a {
+    color: #7DDEDA;
+    padding: 18px 10px 18px 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.dropdown li:hover {
+    color: black;
+}
+
+.dropdown li a:hover {
+    background-color: #7DDEDA;
+    color: black;
+}
+
+.dropdown2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: black;
+    list-style: none;
+}
+  
+.dropdown2 li {
+    width: 200px;
+}
+  
+.dropdown2 li a {
+    color: #7DDEDA;
+    padding: 18px 10px 18px 10px;
+}
+  
+.dropdown2 li:hover {
+    color: black;
+}
+
+.dropdown2 li a:hover {
+    background-color: #7DDEDA;
+    color: black;
+}

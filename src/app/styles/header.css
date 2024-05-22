@@ -1,0 +1,9 @@
+.main-header{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}

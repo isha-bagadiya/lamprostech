@@ -1,0 +1,70 @@
+.hero-section{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content{
+    width: 45%;
+    color: white;
+    margin-left: 10%;
+}
+
+.heading1{
+    color: #66CCCC;
+    font-size: 3.5vw;
+    margin-bottom: 20px;
+}
+
+.heading2{
+    font-style: italic;
+    font-size: 1.5vw;
+    font-weight: 100;
+    margin: 40px 0;
+}
+
+.description{
+    font-size: 1.5vw;
+    margin: 50px 0;
+    line-height: 2.2rem;
+}
+
+.description-bold{
+    font-weight: 700;
+}
+
+.book-button{
+    background-color: #29A19C;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 15px 25px;
+    border: 1px transparent;
+    border-radius: 9px;
+}
+.hero-img-div{
+    width: 50%;
+    height: max-content;
+    z-index: -1;
+}
+
+.hero-img{
+    width: 100%;
+    height:auto;
+    animation: moveUpLeft 5s infinite ease-in-out;
+}
+
+@keyframes moveUpLeft {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-30px, -30px);
+    }
+    100%{
+      transform: translate(0, 0);
+
+    }
+  }

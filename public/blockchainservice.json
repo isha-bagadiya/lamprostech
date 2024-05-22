@@ -1,0 +1,33 @@
+[
+    {
+      "img": "/illustration-1.webp",
+      "header": "Smart Contract Development",
+      "content": "Create self-executing, immutable smart contracts using a conflict-free code to automate how two parties engage with each other."
+    },
+    {
+      "img": "/illustration-2.webp",
+      "header": "dApps Development",
+      "content": "Build your own decentralized application that provides user privacy and is free from interference from a single authority."
+    },
+    {
+      "img": "/illustration-3.webp",
+      "header": "NFT Marketplace Development",
+      "content": "Launch a highly personalized NFT marketplace to trade NFTs. You can create a platform that hosts and launches diverse collections of digital artworks!"
+    },
+    {
+      "img": "/illustration-4.webp",
+      "header": "NFT Consulting",
+      "content": "If you are a creative artist who wants to launch their own collection or a business that wants to release personalized NFTs, this is the place for you!"
+    },
+    {
+      "img": "/illustration-5.webp",
+      "header": "Blockchain Technology Consulting",
+      "content": "Want to be a part of the technological revolution but don't know where to start? We'll guide you through the use cases of blockchain and how you can leverage it."
+    },
+    {
+      "img": "/illustration-6.webp",
+      "header": "DeFi Development",
+      "content": "Develop a decentralized finance application to provide transparency, trust and security to your users. Take advantage of the peer-to-peer network's consensus framework."
+    }
+  ]
+  

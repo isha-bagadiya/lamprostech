@@ -1,0 +1,54 @@
+.blockchain-services{
+    width: 75%;
+    margin: auto;
+    color: #7DDEDA;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.service-header1{
+    color: #7DDEDA;
+    margin: 30px auto;
+    font-size: 4vw;
+    font-weight: bolder
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    max-width: 300px;
+    text-align: left;
+    transition: border 0.3s; /* Add transition for smoother hover effect */
+  }
+  
+  .service-item:hover {
+    border: 1px solid #ddd; /* Add border on hover */
+  }
+  
+  .service-image {
+    border-radius: 8px;
+    height: 100px; /* Set a fixed height for all images */
+    width: 100%; /* Ensure image width is responsive */
+    object-fit: cover; /* Ensure image fills container without stretching */
+  }
+  
+  .service-header {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .service-content {
+    font-size: 1em;
+    margin-top: 10px;
+  }
