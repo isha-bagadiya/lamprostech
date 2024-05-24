@@ -9,8 +9,6 @@ export const metadata: Metadata = {
   description: "Lampros Tech",
 };
 
-
-
 export default function RootLayout({
   children,
 }: Readonly<{

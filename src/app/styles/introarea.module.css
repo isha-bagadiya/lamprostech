@@ -83,5 +83,32 @@
     font-weight: 100;
     margin: 40px 0px;
 }
-  
- 
+ .link {
+    text-decoration: none;
+    color: black;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mail {
+    text-decoration: none;
+    color: white;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.iconMail {
+    font-size: 20px;
+    background-color: #7DDEDA;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.mailText {
+    line-height: 2rem;
+    font-size: 20px;
+}

@@ -2,6 +2,8 @@ import React from "react";
 import styles from "../styles/introarea.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { FaMailBulk } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Introarea = () => {
   return (
@@ -16,8 +18,8 @@ const Introarea = () => {
             End Development, CMS Development, and more.
           </p>
           </div>
-          <Link href=''>
-          Learn More →
+          <Link href='/' className={styles.link}>
+          Learn More <FaLongArrowAltRight />
           </Link>
           
         </div>
@@ -34,7 +36,7 @@ const Introarea = () => {
             in our rich clientele base in San Fransisco, California.
           </p>
           </div>
-          <a href="#">Learn More →</a>
+          <Link href="/" className={styles.link}>Learn More <FaLongArrowAltRight /></Link>
         </div>
 
         <div className={styles.locationcard}>
@@ -45,7 +47,7 @@ const Introarea = () => {
             380054
           </p>
           </div>
-          <a href="#">Get Directions →</a>
+          <Link href="/" className={styles.link}>Get Directions <FaLongArrowAltRight /></Link>
         </div>
 
         </div>
@@ -61,9 +63,10 @@ const Introarea = () => {
             back to you within a business day.
           </p>
           </div>
-          <a href="mailto:info@lampros.tech">
-            Book an appointment <br /> info@lampros.tech
-          </a>
+          <Link href="mailto:info@lampros.tech" className={styles.mail}>
+            <p className={styles.iconMail}><FaMailBulk /></p>
+            <p className={styles.mailText}>Book an appointment <br /> info@lampros.tech</p>
+          </Link>
         </div>
         </div>        
       </div>

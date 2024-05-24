@@ -56,6 +56,7 @@
 
 .icon-style:hover {
     color: black;
+    cursor: pointer;
 }
 
 .contact-list {
@@ -66,7 +67,12 @@
     padding-top: 1rem;
 }
 
-.contact-list li:hover{
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
     color: #049182;
     cursor: pointer;
 }
@@ -105,15 +111,15 @@
 
 .scroll-nested {
     background-color: #049182;
-    color: white;
     border-radius: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 10px;
 }
 
-.scroll-nested:hover {
+.btn {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
     cursor: pointer;
 }
 

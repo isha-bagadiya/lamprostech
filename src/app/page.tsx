@@ -7,6 +7,7 @@ import TechStack from './components/TechStack'
 import Partnership from './components/partnership'
 import Why from './components/Why'
 import Introarea from './components/introarea'
+import Guide from './components/Guide'
 
 const page = () => {
   return (
@@ -18,6 +19,7 @@ const page = () => {
       <TechStack />
       <Partnership />
       <Why />
+      <Guide />
       <Introarea />
     </div>
   )
