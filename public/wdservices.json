@@ -1,0 +1,51 @@
+[
+    {
+      "header": "Web Development",
+      "content": "Learn More",
+      "img": "/wd1.webp",
+      "url": "/web-development"
+    },
+    {
+      "header": "E-Commerce Development",
+      "content": "Learn More",
+      "img": "/wd2.webp",
+      "url": "/e-commerce-development"
+    },
+    {
+      "header": "UI/UX Design",
+      "content": "Learn More",
+      "img": "/wd3.webp",
+      "url": "/ui-ux"
+    },
+    {
+      "header": "Branding",
+      "content": "Learn More",
+      "img": "/wd4.webp",
+      "url": "/branding"
+    },
+    {
+      "header": "SEO- Content Writing",
+      "content": "Learn More",
+      "img": "/wd5.webp",
+      "url": "/content-writing"
+    },
+    {
+      "header": "Web Analytics",
+      "content": "Learn More",
+      "img": "/wd6.webp",
+      "url": "/web-analytics"
+    },
+    {
+      "header": "Social Media Marketing",
+      "content": "Learn More",
+      "img": "/wd7.webp",
+      "url": "/social-media-marketing"
+    },
+    {
+      "header": "Ed-Tech",
+      "content": "Learn More",
+      "img": "/wd8.webp",
+      "url": "/ed-tech"
+    }
+  ]
+  

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap');
+
+.whysection{
+    background-color: #154E4D;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.header{
+    width: 70%;
+    margin: 100px auto 60px;
+    font-size: 4.4vw;
+    text-wrap: wrap;
+    line-height: 4.5rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Maven Pro", Sans-serif;
+    line-height: 3rem;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.p2{
+    color: #29a19c;
+    font-family: "Maven Pro", Sans-serif;
+    font-weight: 700;
+    margin: 30px auto;
+}
+
+.icontextgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 60%;
+    margin: 50px auto 100px;
+    font-family: "Maven Pro", Sans-serif;
+  }
+  
+  .griditem {
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    box-shadow: 3px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+  
+  .iconcontainer {
+    padding: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #124A49;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .text {
+    margin: 0;
+    font-size: 18px;
+  }
+  

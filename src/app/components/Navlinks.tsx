@@ -24,17 +24,15 @@ const Navlinks = () => {
           onMouseEnter={() => setAboutDropdown(true)}
           onMouseLeave={() => setAboutDropdown(false)}
         >
-          <Link href="/">
-            About <FiChevronDown className="down-arrow"/>
-          </Link>
+           <Link href="/"> About <FiChevronDown className="down-arrow"/></Link>
 
           {aboutDropdown && (
             <ul className="dropdown">
               <li>
-                <Link href="/">About Us</Link>
+                <Link href="/about-us">About Us</Link>
               </li>
               <li>
-                <Link href="/">Careers</Link>
+                <Link href="/careers-at-lampros-tech">Careers</Link>
               </li>
             </ul>
           )}
@@ -44,9 +42,7 @@ const Navlinks = () => {
           onMouseEnter={() => setServicesDropdown(true)}
           onMouseLeave={() => setServicesDropdown(false)}
         >
-          <Link href="/">
-            Services <FiChevronDown className="down-arrow"/>
-          </Link>
+            <Link href="">Services <FiChevronDown className="down-arrow"/></Link>
 
           {ServicesDropdown && (
             <ul className="dropdown">
@@ -54,42 +50,42 @@ const Navlinks = () => {
                 onMouseEnter={() => setITDropdown(true)}
                 onMouseLeave={() => setITDropdown(false)}
               >
-                <Link href="/">IT <FaChevronRight /></Link>
+                <Link href="">IT <FaChevronRight /></Link>
                 {ITDropdown && (
                   <ul className="dropdown2">
                     <li>
-                      <Link href="/">Full Stack Development</Link>
+                      <Link href="/fullstack-development">Full Stack Development</Link>
                     </li>
                     <li>
-                      <Link href="/">Web Development</Link>
+                      <Link href="/web-development">Web Development</Link>
                     </li>
                     <li>
-                      <Link href="/">E-Commerce Development</Link>
+                      <Link href="/e-commerce-development">E-Commerce Development</Link>
                     </li>
                   </ul>
                 )}
               </li>
               <li>
-                <Link href="/">UI/UX Design</Link>
+                <Link href="/ui-ux">UI/UX Design</Link>
               </li>
               <li
                 onMouseEnter={() => setMarketingDropdown(true)}
                 onMouseLeave={() => setMarketingDropdown(false)}
               >
-                <Link href="/">Marketing <FaChevronRight /></Link>
+                <Link href="">Marketing <FaChevronRight /></Link>
                 {MarketingDropdown && (
                   <ul className="dropdown2">
                     <li>
-                      <Link href="/">Content Writing</Link>
+                      <Link href="/content-writing">Content Writing</Link>
                     </li>
                     <li>
-                      <Link href="/">Branding</Link>
+                      <Link href="/branding">Branding</Link>
                     </li>
                     <li>
-                      <Link href="/">Web Analytics</Link>
+                      <Link href="/web-analytics">Web Analytics</Link>
                     </li>
                     <li>
-                      <Link href="/">Social Media Marketing</Link>
+                      <Link href="/social-media-marketing">Social Media Marketing</Link>
                     </li>
                   </ul>
                 )}
@@ -98,47 +94,47 @@ const Navlinks = () => {
                 onMouseEnter={() => setBlockchainDropdown(true)}
                 onMouseLeave={() => setBlockchainDropdown(false)}
               >
-                <Link href="/">Blockchain <FaChevronRight /></Link>
+                <Link href="">Blockchain <FaChevronRight /></Link>
                 {BlockchainDropdown && (
                   <ul className="dropdown2">
                     <li>
-                      <Link href="/">Smart Contracts Development</Link>
+                      <Link href="/smart-contracts-development">Smart Contracts Development</Link>
                     </li>
                     <li>
-                      <Link href="/">dApps Development</Link>
+                      <Link href="/dapps-development">dApps Development</Link>
                     </li>
                     <li>
-                      <Link href="/">NFT Marketplace Development</Link>
+                      <Link href="/nft-marketplace-development">NFT Marketplace Development</Link>
                     </li>
                     <li>
-                      <Link href="/">NFT Consulting</Link>
+                      <Link href="/nft-consulting">NFT Consulting</Link>
                     </li>
                     <li>
-                      <Link href="/">Blockchain Development Consulting</Link>
+                      <Link href="/blockchain-development-consulting-company-lampros-tech">Blockchain Development Consulting</Link>
                     </li>
                     <li>
-                      <Link href="/">DeFi Development</Link>
+                      <Link href="/defi-development">DeFi Development</Link>
                     </li>
                     <li>
-                      <Link href="/">Blockchain Analysis</Link>
+                      <Link href="/guide-to-blockchain-requirement-analysis">Blockchain Analysis</Link>
                     </li>
                   </ul>
                 )}
               </li>
               <li>
-                <Link href="/">Ed-Tech</Link>
+                <Link href="/ed-tech">Ed-Tech</Link>
               </li>
             </ul>
           )}
         </li>
         <li>
-          <Link href="/">Blog</Link>
+          <Link href="/blog">Blog</Link>
         </li>
         <li>
-          <Link href="/">Case Studies</Link>
+          <Link href="/case-studies">Case Studies</Link>
         </li>
         <li>
-          <Link href="/">Contact Us</Link>
+          <Link href="/contact-us">Contact Us</Link>
         </li>
       </ul>
     </div>

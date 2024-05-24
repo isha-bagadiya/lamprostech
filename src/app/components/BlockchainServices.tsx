@@ -17,14 +17,15 @@ const BlockchainServices = () => {
             <Image
               src={service.img}
               alt={service.header}
-              className='service-image'
-              width={300} 
-              height={100} 
+              width={0} 
+              height={0} 
               layout="responsive"
             />
             </div>
+            <div>
             <h2 className='service-header'>{service.header}</h2>
             <p className='service-content'>{service.content}</p>
+            </div>
           </div>
         ))}
       </div>

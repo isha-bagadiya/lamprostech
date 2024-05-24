@@ -1,0 +1,18 @@
+[
+    {
+      "type": "Hourly Fees Contracts",
+      "description": "The project is charged as per the hourly rate of developers for the total working hours spent on it."
+    },
+    {
+      "type": "Fixed Price Contracts",
+      "description": "Upfront fixed price will be charged for the project. We will take care of everything, you just need to send in the requirements."
+    },
+    {
+      "type": "Equity-Based Contracts",
+      "description": "If you're low on funds but can't wait to launch your amazing idea, make us your partner by sharing a part of equity or royalty fees for the project."
+    },
+    {
+      "type": "Team Collaboration",
+      "description": "If you're working to expand your in-house team or just want to start from scratch with our highly skilled developers, this option is for you!"
+    }
+]
