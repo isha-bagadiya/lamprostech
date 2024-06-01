@@ -37,7 +37,7 @@ const Introarea = () => {
           </p>
           </div>
           <Link href="/" className={styles.link}>Learn More <FaLongArrowAltRight /></Link>
-        </div>
+        </div>  
 
         <div className={styles.locationcard}>
             <div>

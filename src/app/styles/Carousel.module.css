@@ -1,0 +1,50 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carouselWrapper {
+  overflow: hidden;
+}
+
+.carouselInner {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Default transition */
+}
+
+.carouselInner.transition {
+  transition: transform var(--transition-duration) ease-in-out; /* Transition for image change */
+}
+
+.carouselItem {
+  min-width: 100%;
+}
+
+.carouselItem img {
+  width: 100%;
+  display: block;
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.arrowLeft {
+  left: 10px;
+}
+
+.arrowRight {
+  right: 10px;
+}

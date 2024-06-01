@@ -1,3 +1,124 @@
-.aboutus{
-    background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+.fullstackDev {
+    width: 100%;
+}
+
+.div1 {
+    background-image: url(https://lampros.tech/wp-content/uploads/2022/06/background_image_001.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    padding: 14rem 0rem;
+}
+
+.container1 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 3.5rem;
+}
+
+.ill5 {
+    width: 28rem;
+    height: auto;
+}
+
+.content1 h2 {
+    color: #049182;
+    display: inline-block;
+    margin-bottom: 1.3rem;
+    font-family: "Spartan", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.border {
+    width: 31rem;
+    border-bottom: 2px solid #049182;
+    margin-bottom: 1.3rem;
+}
+
+.content1 p {
+    color: #024A42;
+    font-family: "Maven Pro", Sans-serif;
+    font-weight: 400;
+    font-size: 1.52rem;
+    line-height: 2.5rem;
+}
+
+.div2 {
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.content2 {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 6.2rem;
+}
+
+.p1 {
+    font-family: "Spartan", Sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.p2 {
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 1.2rem;
+    opacity: 0.95;
+    line-height: 2.3rem;
+}
+
+.allStack {
+    /* background-image: url(https://lampros.tech/wp-content/uploads/2022/05/f7c86e1….gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    text-align: center;
+    margin-top: 10rem;
+    border: 3px solid #92FFE7;
+    border-radius: 32%;
+    padding: 13rem 0rem;
+}
+
+.mainh2 {
+    color: #FFFFFF;
+    font-family: "Spartan", Sans-serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+.stackFlexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+    padding: 0rem 7rem;
+}
+
+.h2Content {
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+    flex-basis: 30%;
+    color: white;
+    border: 2px solid #00EDC5;
+    border-radius: 33px;
+    border-style: solid;
+    font-weight: lighter;
+    margin-bottom: 1.6rem;
+}
+
+.h2Content:hover {
+    cursor: pointer;
+    background-color: #049182;
 }

@@ -12,3 +12,8 @@ body {
   background-size: cover;
   font-family: "League Spartan";
 }
+
+@font-face {
+  font-family: "Spartan";
+  src: url("../../public/Spartan-Regular.ttf");
+}

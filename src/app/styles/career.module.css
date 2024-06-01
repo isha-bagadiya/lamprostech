@@ -1,0 +1,366 @@
+.careersPage {
+    width: 100%;
+    height: 100%;
+}
+
+.div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.div1 h1 {
+    color: #29a19c;
+    font-family: 'Spartan',sans-serif;
+    font-size: 4vmax;
+    font-weight: 100;
+    margin-top: 3vmax;
+    margin-bottom: 10vmax;
+}
+
+.div1 h2 {
+    font-size: 3vmax;
+    font-weight: 100;
+    margin-bottom: 2vmax;
+}
+
+.div1 p {
+    font-size: 1.8vmax;
+    margin-bottom: 5vmax;
+}
+
+.div1 button {
+    width: 18vmax;
+    height: 3vmax;
+    margin: auto;
+    font-size: 1vmax;
+    color: #FFFFFF;
+    background-color: #59595900;
+    border: 1px solid #FFFFFF;
+    border-radius: 1vmax;
+    margin-bottom: 28vh;
+}
+
+.div1 button:hover {
+    cursor: pointer;
+    background-color: #049182;
+}
+
+.div2 {
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #DEF7F7 0%, #7DDEDA 100%);
+    padding: 12vmax 0vmax;
+}
+
+.container2 {
+    width: 70%;
+    margin: auto;
+    display: flex;  
+    gap: 1.7vmax;
+}
+
+.content h2 {
+    font-size: 2.3vmax;
+    font-weight: 400;
+    color: #29a19c;
+}
+
+.content p {
+    font-size: 1.4vmax;
+    color: #262626;
+    margin-top: 1.5vmax;
+    line-height: 2.5vmax;
+}
+
+.img {
+    width: 25vmax;
+    height: auto;
+    transition: transform 0.6s;
+}
+
+.img:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.div3 {
+    width: 70%;
+    margin: auto;
+    color: white;
+    padding-top: 3vmax;
+    padding-bottom: 8vmax;
+}
+
+.promises {
+    text-align: center;
+    margin-bottom: 7vmax;
+}
+
+.promises h2 {
+    font-size: 3vmax;
+    font-weight: lighter;
+}
+
+.promises p {
+    font-size: 1.5vmax;
+    font-weight: lighter;
+    margin-top: 1.5vmax;
+}
+
+.images {
+    display: flex;
+    gap: 1.5vmax;
+    text-align: center;
+    margin-bottom: 3vmax;
+}
+
+.imgPromise {
+    width: 6vmax;
+    height: auto;
+    margin-bottom: 1vmax;
+    transition: transform 0.6s;
+}
+
+.growth:hover {
+    box-shadow: 0 3px 15px -5px rgba(23, 198, 246, 1.0);
+}   
+
+.hardwork:hover {
+    box-shadow: 0 3px 15px -5px rgba(23, 198, 246, 1.0);
+}
+
+.balance:hover {
+    box-shadow: 0 3px 15px -5px rgba(23, 198, 246, 1.0);
+}
+
+.imgPromise:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.images h2 {
+    color: #7ddeda;
+    margin-bottom: 1vmax;
+    font-size: 1.7vmax;
+}
+
+.images p {
+    line-height: 1.5vmax;
+    font-size: 1.2vmax;
+    font-weight: lighter;
+    padding: 0vmax 1.1vmax;
+    color: #def7f7;
+}
+
+.div4 {
+    width: 100%;
+    background-image: url(https://lampros.tech/wp-content/uploads/2022/04/6869677-11-1.png);
+    padding: 12vmax 0vmax;
+}
+
+.container4 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 5vmax;
+    color: white;
+}
+
+.corevalue h2 {
+    font-size: 3vmax;
+    margin-bottom: 2vmax;
+    font-weight: lighter;
+}
+
+.corevalue h3 {
+    color: #29a19c;
+    font-size: 1.5vmax;
+    margin-bottom: 0.6vmax;
+    font-weight: lighter;
+}
+
+.corevalue p {
+    font-size: 1.5vmax;
+    margin-bottom: 4vmax;
+    line-height: 2.2vmax;
+    font-weight: lighter;
+}
+
+.image4 {
+    padding-right: 7vmax;
+}
+
+.imgGoals {
+    width: 17vmax;
+    height: auto;
+    transition: transform 0.6s;
+}
+
+.imgGoals:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+} 
+
+.div5 {
+    width: 100%;
+    background-image: url(https://lampros.tech/wp-content/uploads/2022/04/6869677-11-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2vmax 0vmax;
+}
+
+.container5 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.openings h1 {
+    font-family: "Spartan", Sans-serif;
+    font-size: 1.7vmax;
+    font-weight: lighter;
+    padding: 0vmax 8vmax;
+    margin-bottom: 1.3vmax;
+}
+
+.openings h2 {
+    font-size: 1.8vmax;
+    margin-bottom: 1.7vmax;
+    font-weight: 600;
+}
+
+.openings p {
+    font-size: 1.7vmax;
+    margin-bottom: 3vmax;
+    font-weight: lighter;
+}
+
+.buttons5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmax;
+    margin-bottom: 1vmax;
+}
+
+.openings button {
+    width: 9vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+    color: #FFFFFF;
+    background-color: #FFFFFF0D;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 1vmax 1.5vmax;
+}
+
+.openings button:hover {
+    cursor: pointer;
+    background-color: #049182;
+}
+
+.hiringImg {
+    width: 30vmax;
+    height: auto;
+    transition: transform 0s; 
+}
+
+.hiringImg:hover {
+    cursor: pointer;
+    animation: moveImage 2s ease-in-out;
+}
+
+@keyframes moveImage {
+    0%,100% {
+      transform: translateX(0); /* Initial position (center) */
+    }
+    25% {
+      transform: translateX(20px); /* Move 20px to the right */
+    }
+    75% {
+      transform: translateX(-20px); /* Move 20px to the left */
+    }
+}
+
+.div6 {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 7vmax 0vmax;
+}
+
+.container6 {
+    width: 70%;
+    margin: auto;
+    color: black;
+}
+
+.container6 h2 {
+    color: #049182;
+    font-family: "Arial", Sans-serif;
+    text-align: center;
+    font-size: 3vmax;
+    font-family: 600;
+    margin-bottom: 2vmax;
+}
+
+.jobs6 {
+    border: 1px dashed #049182;
+    padding: 1.5vmax;
+    margin-bottom: 3vmax;
+}
+
+.jsonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmax;
+}
+
+.jobItem {
+    text-align: left;
+    flex-basis: 31.23%;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    border: 1px solid #dddfe3;
+    border-radius: 2px;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.jobItem:hover {
+    box-shadow: 0 3px 15px -5px rgb(0 0 0 / 35%);
+}
+
+.jobTitle {
+    color: #29a19c;
+    font-size: 1.2vmax;
+    margin-bottom: 1.4vmax;
+}
+
+.jobType {
+    margin-bottom: 0.8vmax;
+    font-weight: lighter;
+}
+
+.jobLocation {
+    margin-bottom: 0.7vmax;
+    font-weight: lighter;
+}
+
+.jobDetails {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7vmax;
+    font-weight: lighter;
+    color: #29a19c;
+    gap: 0.3vmax;
+}

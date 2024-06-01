@@ -1,5 +1,5 @@
 'use client'
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Logo from "../../../public/dark_logo.webp";
 import "../styles/footer.css";
@@ -12,28 +12,42 @@ import ContactUs from "./ContactUs";
 import Link from "next/link";
 
 const Footer = () => {
-  
+
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   const isBrowser = () => typeof window !== 'undefined'; 
 
   function scrollToTop() {
-      if (!isBrowser()) return;
+      if (!isBrowser() && isClient) return;
       window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   const handleInstaClick = () => {
-    window.open('https://www.instagram.com/lampros.tech/?hl=en', '_blank', 'noopener,noreferrer');
+    if(isClient) {
+      window.open('https://www.instagram.com/lampros.tech/?hl=en', '_blank', 'noopener,noreferrer');
+    }
   }
 
   const handleLinkedInClick = () => {
-    window.open('https://www.linkedin.com/company/lampros-tech/?originalSubdomain=in', '_blank', 'noopener,noreferrer');
+    if(isClient) {
+      window.open('https://www.linkedin.com/company/lampros-tech/?originalSubdomain=in', '_blank', 'noopener,noreferrer');
+    }
   }
 
   const handleTwitterClick = () => {
-    window.open('https://x.com/Lampros_Tech', '_blank', 'noopener,noreferrer');
+    if(isClient) {
+      window.open('https://x.com/Lampros_Tech', '_blank', 'noopener,noreferrer');
+    }
   }
 
   const handleBehanceClick = () => {
-    window.open('https://www.behance.net/lamprostech5', '_blank', 'noopener,noreferrer');
+    if(isClient) {
+      window.open('https://www.behance.net/lamprostech5', '_blank', 'noopener,noreferrer');
+    }
   }
 
   return (

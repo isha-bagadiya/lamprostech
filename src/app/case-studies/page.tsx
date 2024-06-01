@@ -1,11 +1,20 @@
-import React from 'react'
-import "./style.css"
+import React from "react";
+import "./style.css";
+import styles from "../styles/CaseStudies.module.css";
+import Carousel from "../components/Carousel";
+
 const page = () => {
   return (
-    <div className='aboutus'>
-      about us page
-    </div>
-  )
-}
+    <div className={styles.caseStudies}>
+      <div className={styles.div1}>
+        <p>Case Studies</p>
+      </div>
 
-export default page
+      <div className={styles.div2}>
+        {/* <Carousel /> */}
+      </div>
+    </div>
+  );
+};
+
+export default page;
