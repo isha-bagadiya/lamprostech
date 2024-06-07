@@ -3,6 +3,10 @@ import styles from "../styles/why.module.css";
 import { FaNetworkWired, FaFingerprint, FaClock, FaRobot, FaLock, FaFileAlt } from 'react-icons/fa';
 import { LiaNetworkWiredSolid } from "react-icons/lia";
 import { PiIntersect } from "react-icons/pi";
+import { FaGears } from "react-icons/fa6";
+import { LuFileLock2 } from "react-icons/lu";
+
+
 
 
 
@@ -10,9 +14,9 @@ const data = [
   { icon: LiaNetworkWiredSolid, text: 'Decentralization' },
   { icon: PiIntersect, text: 'Transparency' },
   { icon: FaClock, text: 'Efficiency' },
-  { icon: FaRobot, text: 'Automation' },
+  { icon: FaGears, text: 'Automation' },
   { icon: FaLock, text: 'Security' },
-  { icon: FaFileAlt, text: 'Privacy' },
+  { icon: LuFileLock2, text: 'Privacy' },
 ];
 
 

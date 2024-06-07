@@ -1,0 +1,16 @@
+.main{
+    background-color: #DEF7F7;
+    background: url('../../../public/ui-uxpage/djasgifdiuwhei@2x (1).jpg');
+    background-repeat: no-repeat;
+    block-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.left{
+    width: 50%;
+    color: #049182;
+    gap: 20px;
+}

@@ -9,11 +9,11 @@
 }
 
 .techstack-header{
-    margin: 100px auto 40px;
+    margin: 100px auto 20px;
     font-size: 4vw;
 }
 
-.techstack-list {
+/* .techstack-list {
     width: 60%;
     display: flex;
     flex-direction: row;
@@ -22,9 +22,109 @@
     flex-wrap: wrap;
     gap: 20px;
     margin: 100px auto 150px;
+}  */
+/* 
+.techstack-item {
+    width: 105px;
+    height: 105px;
+    padding: 4px;
+    background-color: white;
+} */
+
+
+
+
+.techstack-list {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.3s ease(gravity);
+    gap: 25px;
+    margin: 100px auto 150px;
+    align-items: center;
+    justify-content: center;
 }
 
-  .techstack-item {
-    width: 100px;
-    height: 100px;
+.techstack-item {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease(downhill);
 }
+
+.techstack-item:hover {
+    z-index: 1;
+    box-shadow: 1em 1em 1em #0004;
+  }
+
+  @media screen and (max-width:1417px) {
+    .techstack-list{
+        width: 68%;
+    }
+  }
+
+  @media screen and (max-width:1250px) {
+    .techstack-list {
+        width: 65%;
+        gap: 15px;
+    }
+    
+    .techstack-item {
+      width: 90px;
+      height: 90px;
+      border-radius: 10px;
+    }
+  }
+
+  @media screen and (max-width:1108px) {
+    .techstack-list {
+        width: 60%;
+        gap: 20px;
+    }
+    
+    .techstack-item {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+    }
+  }
+
+  @media screen and (max-width:969px) {
+    .techstack-list {
+        width: 60%;
+        gap: 20px;
+    }
+    
+    .techstack-item {
+      width: 85px;
+      height: 85px;
+      border-radius: 10px;
+    }
+  }
+
+  @media screen and (max-width:842px) {
+    .techstack-list {
+        width: 70%;
+        gap: 15px;
+    }
+    
+    .techstack-item {
+      width: 85px;
+      height: 85px;
+      border-radius: 10px;
+    }
+  }
+
+  @media screen and (max-width:426px) {
+    .techstack-list {
+        width: 80%;
+        gap: 10px;
+    }
+    
+    .techstack-item {
+      width: 70px;
+      height: 70px;
+      border-radius: 6px;
+    }
+  }

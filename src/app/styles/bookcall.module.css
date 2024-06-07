@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.mainsection{
+    width: 100%;
+    background-image: url(https://lampros.tech/wp-content/uploads/2023/07/Background-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    width: 60%;
+    color: white;
+    padding: 60px 0px 60px 150px;
+}
+
+.logodiv{
+    margin: 0px 0px 20px;
+}
+
+.heading{
+    color: #B1F7F7;
+    font-family: "Raleway", Sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.para{
+    font-family: "Raleway", Sans-serif;
+    font-size: 1.2vw;
+    line-height: 1.7rem;
+    margin: 25px 0;
+
+}
+.button{
+    background-color: #29A19C;
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    padding: 15px 35px;
+    border: 1px transparent;
+    border-radius: 9px;
+}
+.imgdiv{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-end;
+    align-items: first baseline;
+    padding-right: 100px;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}

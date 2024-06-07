@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap');
-.main{
-    position: relative;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap");
+
+.main {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-.backgroundoverlay{
-box-sizing: border-box;
-height: 100%;
-width: 100%;
-top: 0;
-left: 0;
-position: absolute;
-background-image: url("https://lampros.tech/wp-content/uploads/2022/06/modelsssss.webp");
-background-position: center right;
-background-repeat: no-repeat;
-opacity: 0.43;
-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
+.backgroundoverlay {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-image: url("https://lampros.tech/wp-content/uploads/2022/06/modelsssss.webp");
+  background-position: center right;
+  background-repeat: no-repeat;
+  opacity: 0.43;
 }
 
 .partnershipsectionbg {
@@ -26,7 +27,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .section {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -35,13 +36,16 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 
 .header {
   color: #049182;
-  margin: 200px 0px 20px;
-  font-size: 4vw;
+  margin: 100px 0px 20px;
+  font-size: 50px;
+  z-index: 100;
 }
 
 .para {
-  font-size: 1.3vw;
+  font-size: 23px;
   margin: 20px 0px;
+  z-index: 99;
+
 }
 
 .modellist {
@@ -53,7 +57,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .model {
-  padding: 50px 25px;
+  padding: 40px 25px;
   color: white;
   width: 100%;
   position: relative;
@@ -75,31 +79,141 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
   background-color: #154e4d;
 }
 
-.modelheader{
-    text-align: left;
-    font-size: 2vw;
-    line-height: 2rem;
-    margin: 15px 0;
-}
-.modelpara{
-    text-align: left;
-    font-family: 'Maven Pro', sans-serif; 
-    font-size: 16px;
-    font-weight: 100;
-    margin: 40px 0;
-    line-height: 1.5rem;
-}
-.rightlink{
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    font-size: 29px;
-    text-decoration: none;
-    color: white;
+.modelheader {
+  text-align: left;
+  font-size: 2vw;
+  line-height: 2rem;
+  margin: 0;
 }
 
-.right:hover{
+.modelpara {
+  text-align: left;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 28px 0;
+  line-height: 1.5rem;
+}
+
+.rightlink {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 29px;
+  text-decoration: none;
+  color: white;
+}
+
+.right:hover {
   background-color: white;
   color: black;
   border-radius: 100%;
 }
+
+@media screen and (max-width:1026px) {
+  .backgroundoverlay {
+    top: -150px;
+    left: 100px;
+  }
+  .header{
+    font-size: 40px;
+    margin: 50px 0px 20px;
+  }
+
+  .para {
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+
+  .modellist{
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 250px);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .backgroundoverlay {
+    top: -400px;
+    left: 100px;
+    opacity: 0.22;
+  }
+  .section{
+    align-items: center;
+  }
+
+  .header{
+    font-size: 40px;
+    margin: 70px 0px 30px;
+  }
+  .para{
+    text-align: center;
+  }
+
+  .modellist{
+    gap: 20px;
+    grid-template-columns: repeat(1, 80%);
+    grid-template-rows: repeat(4, 250px);
+    justify-content: center;
+    margin: 50px auto;
+  }
+
+  .modelheader {
+    font-size: 20px;
+    line-height: 2rem;
+    margin: 0;
+  }
+  
+  .modelpara {
+    font-size: 16px;
+    margin: 28px 0;
+    line-height: 1.5rem;
+  }
+
+  @media screen and (max-width:600px) {
+    .backgroundoverlay {
+      width: 100%;
+      top: -400px;
+      left: 0;
+      opacity: 0.22;
+    }
+    .header{
+      font-size: 35px;
+    }
+    .modelheader{
+      font-size: 20px;
+    }
+    .modelpara {
+      font-size: 14px;
+      margin: 20px 0;
+      line-height: 1.1rem;
+    }
+
+    @media screen and (max-width:389px) {
+      .backgroundoverlay {
+        width: 100%;
+        top: -400px;
+        left: 0%;
+        opacity: 0.22;
+      }
+      .header{
+        font-size: 32px;
+      }
+      .modelheader{
+        font-size: 16px;
+      }
+      .modelpara {
+        font-size: 12px;
+        margin: 16px 0;
+        line-height: 0.9rem;
+      }
+      .modellist{
+        gap: 20px;
+        grid-template-rows: repeat(4, 270px);
+      }    
+    }
+  }
+
+}
+
+

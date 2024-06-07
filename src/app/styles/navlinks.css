@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap');
 
-
-.navlinks{
+.navlinks {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 2vw;
     font-family: 'Maven Pro', sans-serif; 
     z-index: 100;
 }
@@ -12,7 +11,7 @@
 .navlinks li {
     position: relative;
     font-size: 25px;
-  }  
+}  
 
 .navlinks a {
     text-decoration: none;
@@ -22,9 +21,13 @@
     display: flex;
     align-items: center;
     padding-bottom: 10px;
+    transition: all 0.5s ease;
+}
+.navlinks a:hover{
+    border-bottom:  1px solid #7DDEDA;
 }
 
-.down-arrow{
+.down-arrow {
     padding: 3px 0px 0px 3px;
 }
 
@@ -85,4 +88,45 @@
 .dropdown2 li a:hover {
     background-color: #7DDEDA;
     color: black;
+}
+
+@media screen and (max-width: 1026px) {
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        gap: 0;
+    }
+
+    .navlinks a{
+        padding: 15px;
+    }
+
+    .navlinks a:hover{
+        background-color: #7DDEDA;
+        color: black;
+    }
+
+    .dropdown, .dropdown2 {
+        position: relative;
+        width: 90%;
+        margin-left: 10px;
+        border-left: 1px solid #7DDEDA;
+        padding-left: 30px;
+    }
+
+    .dropdown li, .dropdown2 li {
+        width: 100%;
+    }
+
+    .dropdown li a, .dropdown2 li a {
+        width: 100%;
+        padding: 18px;
+        justify-content: flex-start;
+    }
+
+    .dropdown2 {
+        left: 0;
+    }
 }

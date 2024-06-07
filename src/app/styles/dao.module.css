@@ -1,0 +1,57 @@
+.mainsection{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.header{
+    font-size: 4rem;
+    color: #045B58;
+    width: 70%;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 5.5rem;
+    font-weight: 700;
+}
+
+.para{
+    width: 70%;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 100;
+    margin: 30px auto;
+}
+
+.slidersection{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 50px;
+    color: black;
+    margin: 50px auto;
+}
+.sliderimg{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+.next {
+    animation: slideInFromRight 2s forwards;
+  }
+  
+  .prev {
+    animation: slideInFromLeft 2s forwards;
+  }

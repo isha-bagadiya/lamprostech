@@ -7,6 +7,12 @@ import TechStack from './components/TechStack'
 import Partnership from './components/partnership'
 import Why from './components/Why'
 import Introarea from './components/introarea'
+import ContactUs from './components/ContactUs'
+import Bookcall from './components/Bookcall'
+import Dao from './components/Dao'
+import Client from './components/Client'
+import Blogs from './components/Blogs'
+import Guide from './components/Guide'
 
 const page = () => {
   return (
@@ -18,7 +24,13 @@ const page = () => {
       <TechStack />
       <Partnership />
       <Why />
+      <Bookcall />
+      <Dao />
+      <Client />
+      <Guide />
+      <Blogs />
       <Introarea />
+      <ContactUs />
     </div>
   )
 }

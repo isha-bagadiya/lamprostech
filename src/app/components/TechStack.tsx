@@ -13,6 +13,7 @@ const TechStack = () => {
             <Image
               src={techstack.img}
               alt={techstack.alt}
+              className='techstack-image'
               width={100} 
               height={100} 
               layout="responsive"

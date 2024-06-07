@@ -1,0 +1,12 @@
+/* content writing */
+
+.main{
+    background-color: #DEF7F7;
+    background: url('../../../public/ui-uxpage/djasgifdiuwhei@2x (1).jpg');
+    background-repeat: no-repeat;
+    block-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 100px 200px;}

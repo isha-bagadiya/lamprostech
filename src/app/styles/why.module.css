@@ -7,6 +7,7 @@
     flex-direction: column;
     align-items: center;
     color: white;
+    overflow-x: hidden;
 }
 
 .header{
@@ -72,3 +73,38 @@
     font-size: 18px;
   }
   
+  @media screen and (max-width:768px) {
+    .header{
+      width: 80%;
+      margin: 50px auto 50px;
+      font-size: 5.5vw;
+      text-wrap: wrap;
+      line-height: 3rem;
+      letter-spacing: normal;
+  }
+
+  .p1{
+    line-height: normal;
+    width: 70%;
+    font-size: 16px;
+  }
+
+  .p2{
+    font-weight: 700;
+    margin: 30px auto;
+    font-size: 12px;
+}
+
+
+  .icontextgrid {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width:530px) {
+    .icontextgrid {
+      width: 75%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  }

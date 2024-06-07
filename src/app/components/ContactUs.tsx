@@ -7,7 +7,7 @@ export default function ContactUs() {
         <div className={styles.leftContent}>
         <h1 className={styles.title}>Contact Us</h1>
         <p className={styles.description}>
-        Drop us a line to enquire about our services for your new software launch or your latest software innovation. We'll get back to you within a business day
+        Drop us a line to enquire about our services for your new software launch or your latest software innovation. We&apos;ll get back to you within a business day
         </p>
         </div>
 

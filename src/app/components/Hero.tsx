@@ -4,6 +4,8 @@ import "../styles/hero.css"
 import Link from 'next/link'
 import Image from 'next/image'
 import heroimg from '../../../public/hero-img.png'
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 const Hero = () => {
 
@@ -21,7 +23,7 @@ const Hero = () => {
 
         </div>
         <div className='hero-img-div'>
-            <Image src={heroimg} alt='hero-image' className='hero-img'></Image>
+            <Image src={heroimg} alt='hero-image' className='hero-img' ></Image>
         </div>
     </div>
   )

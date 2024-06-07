@@ -27,28 +27,31 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
-    margin: 100px 0px;
+    margin: 200px 0;
     color: #7DDEDA;
   }
 
   .wdserviceitem {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 300px;
-    height: 350px;
     text-align: left;
     padding: 20px;
     border: 1px solid #7DDEDA;
-    border-radius: 25px;
+    border-radius: 20px 0px 20px 0px;
 }
 
 .imgdiv{
-    width: 260px;
-    border-radius: 25px;
-    overflow: hidden;
+    position: relative;
+    top: -60px;
+    border-radius: 18px;
     border: 1px solid;
+    overflow: hidden;
+    height: 180px;
+    width: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .listheader{
@@ -56,7 +59,7 @@
     font-size: 21px;
     font-weight: 100;
     line-height: 2rem;
-    margin: 20px auto;
+    margin: -15px auto 15px;
     text-align: left;
 }
 
@@ -80,4 +83,40 @@
 .link{
     text-decoration: none;
     color: #7DDEDA;
+}
+
+@media screen and (max-width:1026px) {
+    .wdserviceheader{
+        margin: 20px auto;
+        font-size: 5vw;
+    }
+
+    .wdservicepara{
+        font-size: 17px;
+        line-height: 2.2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .wdserviceheader{
+        margin: 20px auto;
+        font-size: 5vw;
+    }
+
+    .wdservicepara{
+        font-size: 14px;
+        line-height: 1.8rem;
+    }
+
+    .wdservicelist{
+        margin: 60px auto;
+    }
+    .wdserviceitem{
+        width: 250px;
+    }
+
+
+    .imgdiv{
+        height: 145px;
+    }
 }
